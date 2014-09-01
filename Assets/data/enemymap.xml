@@ -1,0 +1,24 @@
+<LIST>
+	<ENEMY ID="slizard">
+		<AREA IMG="slizard.png" TILEWIDTH="54" TILEHEIGHT="36" WALK="1, 4, 5, 4, 1, 6, 7, 6" IDLE="1, 2, 3" ATTACK="0" DELAY="5"></AREA>
+		<BATTLE IMG="test_enemy.png" TILEWIDTH="21" TILEHEIGHT="31" HP="52" XP="2" STATS="6 5 4 5" IDLE_WANDER="1" RANGED="0">
+			<AI>
+				<STEP>attack furthest 100</STEP>
+				<STEP>idle 2-3 100</STEP>
+				<STEP>attack closest 66</STEP>
+				<STEP>idle 8-10 66</STEP>
+			</AI>
+			<ANIMATIONS>
+				<ATTACK D="3, 4, 5" U="9, 10, 11" L="15, 16, 17" DELAY="5"></ATTACK>
+				<MOVE D="1, 2" U="7, 8" L="13, 14" DELAY="10"></MOVE>
+				<IDLE D="0" U="6" L="12" DELAY="10"></IDLE>
+			</ANIMATIONS>
+			<DROP ID="3001" AMT="1-3" CHANCE="50"></DROP>
+			<ABILITIES>
+				<ABILITY NAME="NONE" ID="0">
+					<SPEC></SPEC>
+				</ABILITY>
+			</ABILITIES>
+		</BATTLE>
+	</ENEMY>
+</LIST>

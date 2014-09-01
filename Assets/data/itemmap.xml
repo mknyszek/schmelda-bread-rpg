@@ -1,0 +1,6 @@
+<LIST>
+	<CONSUMABLE ID="3001" USAGE="A" EFFECT="hp+20" IMAGE="potion.png" NAME="Potion">A common drink for the common ailment. +20 HP to one character.</CONSUMABLE>
+	<CONSUMABLE ID="3002" USAGE="B" EFFECT="def*2_5" IMAGE="fortdrink.png" NAME="Fortification Drink">You'll feel like a wall in no time. x2 DEF for 5 turns.</CONSUMABLE>
+	<CONSUMABLE ID="3003" USAGE="B" EFFECT="ehp-50" IMAGE="knives.png" NAME="Throwing Knife">The common assassin's weapon of choice. -50 HP to one enemy.</CONSUMABLE>
+	<EQUIPMENT ID="1001" USAGE="A" GROW="dex_1" BONUS="atk+2" IMAGE="stick.png" NAME="Dry Wooden Stick">It's a stick you found. You can... reach further with it, I guess.</EQUIPMENT>
+</LIST>

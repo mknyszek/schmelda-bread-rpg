@@ -1,0 +1,13 @@
+<LIST>	
+	<MAP ID="map1" TILEMAP="overworldtiles.png" WIDTH="40" HEIGHT="30">
+		<GOTO MAP="map2" BXSTART="27" BYSTART="3" FACING="1">
+			<RECT X="24" Y="30" WIDTH="4" HEIGHT="1" />
+		</GOTO>
+	</MAP>
+	<MAP ID="map2" TILEMAP="overworldtiles.png" WIDTH="40" HEIGHT="30">
+		<GOTO MAP="map1" BXSTART="26" BYSTART="29" FACING="3">
+			<RECT X="25" Y="-1" WIDTH="5" HEIGHT="1" />
+		</GOTO>
+		<BATTLE_REGION AREA="1" ACTIVE="0" X="15" Y="12" WIDTH="16" HEIGHT="8"></BATTLE_REGION>
+	</MAP>
+</LIST>

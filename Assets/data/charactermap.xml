@@ -1,0 +1,23 @@
+<LIST>
+	<CHAR NAME="Crono">
+		<BASE_HP>22</BASE_HP>
+		<STAT_MULTI>1.5 2 2 3 1.75 1.25</STAT_MULTI>
+		<ANIMATIONS>
+			<AREA IMG="player_test.png" TILEWIDTH="22" TILEHEIGHT="36">
+				<IDLE D="0" U="14" L="7"></IDLE>
+				<MOVE D="1, 2, 3, 4, 5, 6" U="15, 16, 17, 18, 19, 20" L="8, 9, 10, 11, 12, 13" DELAY="5"></MOVE>
+			</AREA>
+			<BATTLE IMG="player_battle_test.png" TILEWIDTH="43" TILEHEIGHT="55">
+				<START></START>
+				<IDLE></IDLE>
+				<MOVE></MOVE>
+				<ATTACK></ATTACK>
+				<ATTACK2></ATTACK2>
+				<DEFEND></DEFEND>
+				<ITEM></ITEM>
+				<DAMAGE></DAMAGE>
+				<DEATH></DEATH>
+			</BATTLE>
+		</ANIMATIONS>
+	</CHAR>
+</LIST>

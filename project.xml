@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="SchmeldaBreadRpg" package="main.mickny.schmelda" version="0.0.1" company="Company Name" />
+	<app main="SchmeldaBread" path="Export" file="SchmeldaBreadRpg" />
+	<window width="800" height="600" fps="60" resizable="false" background="0x000000" if="flash" />
+	<window width="800" height="600" fps="60" resizable="false" background="0x000000" hardware="true" unless="flash" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<ndll name="std" haxelib="hxcpp" />
+	<ndll name="regexp" />
+	<ndll name="zlib" />
+	
+	<assets path="Assets" rename="assets" exclude="schmelda-bread.svg" />
+	<icon path="Assets/schmelda-bread.svg" />
+	
+</project>

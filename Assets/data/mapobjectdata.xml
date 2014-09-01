@@ -1,0 +1,12 @@
+<LIST>
+	<MAP ID="map1">
+		<OBJECT IMG="cactusman.png" NAME="Cactusman I" ANIMATED="0" TILEWIDTH="18" TILEHEIGHT="32" X="10" Y="10" FWALK="0" SWALK="0" BWALK="0" STILL="0"></OBJECT>
+		<OBJECT IMG="cactusman.png" NAME="Cactusman II" ANIMATED="0" TILEWIDTH="18" TILEHEIGHT="32" X="15" Y="15" FWALK="0" SWALK="0" BWALK="0" STILL="0"></OBJECT>
+		<OBJECT IMG="cactusman.png" NAME="Cactusman III" ANIMATED="0" TILEWIDTH="18" TILEHEIGHT="32" X="20" Y="12" FWALK="0" SWALK="0" BWALK="0" STILL="0"></OBJECT>
+		<OBJECT IMG="npc_test.png" NAME="npc" ANIMATED="1" TILEWIDTH="18" TILEHEIGHT="32" X="20" Y="20" FWALK="1, 2, 3, 4" SWALK="6, 7, 8, 7" BWALK="10, 11, 12, 13" STILL="0"></OBJECT>
+	</MAP>	
+
+	<MAP ID="map2">
+		<ENEMY ID="slizard" AREA="1" X="25" Y="16" AGGRO="1">m l 8 128, p 32, m r 8 128, p 32</ENEMY>
+	</MAP>
+</LIST>
