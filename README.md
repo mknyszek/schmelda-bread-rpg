@@ -12,9 +12,11 @@ The game engine in this case would be an RPG, and the end-goal is to create an e
 How far along is it?
 --------------------
 
-The truth is that since coming to university I haven't had a chance to work on it. Only recently have I updated it to the newest version of Haxe and OpenFL and it should compile successfully with Haxe 3.1.3 and OpenFL 2.0.1.
+The truth is that since coming to university I haven't had a chance to work on it. Only recently have I updated it to the newest version of Haxe and OpenFL and it should compile successfully with Haxe 3.1.3 and OpenFL 2.0.1 (it was originally built using NME, and OpenFL is just NME's successor).
 
-With that being said, there is actually a lot done on the project. The codebase is currently decently large and ready for more updates. 
+With that being said, there is actually a lot done on the project. The codebase is currently decently large (a few thousand lines? I did a lot from scratch) and ready for more updates. 
+
+If you're on Windows and have FlashDevelop installed, you can actually open up the .hxproj up with FlashDevelop (though to get it to compile in the IDE you have to set custom build settings; FD 4.6 doesn't support OpenFL yet to my knowledge, as its still back on NME.
 
 The features currently available include:
 * Custom maps and tilesheets; moving in and out of different maps is supported.
